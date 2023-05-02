@@ -5,49 +5,49 @@ This data structure is a Tree where each node represents a character. Each path 
 
 Your task is to build this data structure by implementing the following operations: Insert (char *s). This operation inserts the string s in the tree.
 
-Delete (char *s). This operation deletes the string s from the tree.
-Search (char *s). This operation prints Yes or No based on whether the string s exists in the tree or not.
-StartsWith(char *s). This operation prints all strings that start with string s. Strings are sorted then printed.
-Longest(). This operation prints the longest string stored in the tree (assume there is only one such string).
-Input Format
+Delete (char *s). This operation deletes the string s from the tree.<br>
+Search (char *s). This operation prints Yes or No based on whether the string s exists in the tree or not.<br>
+StartsWith(char *s). This operation prints all strings that start with string s. Strings are sorted then printed.<br>
+Longest(). This operation prints the longest string stored in the tree (assume there is only one such string).<br><br>
+Input Format<br>
 
-N (the number of commands, N is an integer)
-command 1
-command 2
-...
-command N
-Constraints
+N (the number of commands, N is an integer)<br>
+command 1<br>
+command 2<br>
+...<br>
+command N<br>
+Constraints<br>
 
 N is between 1 to 500
 
-Output Format
+Output Format<br><br>
 
-result of command 1
-result of command 2
-...
-result of command N
-Sample Input 0
+result of command 1<br>
+result of command 2<br>
+...<br>
+result of command N<br><br>
+Sample Input 0<br><br>
 
-12
+12<br>
 insert Mall<br>
-insert Me
-insert Mat
-insert Cat
-insert Rat
-insert Mandy
-delete Mandy
-startwith Ma
-search Cat
-search Me
-search Mandy
-longest
-Sample Output 0
+insert Me<br>
+insert Mat<br>
+insert Cat<br>
+insert Rat<br>
+insert Mandy<br>
+delete Mandy<br>
+startwith Ma<br>
+search Cat<br>
+search Me<br>
+search Mandy<br>
+longest<br><br>
 
-Mall
-Mat
-YES
-YES
-NO
-Mall
+Sample Output 0<br><br>
+Mall<br>
+Mat<br>
+YES<br>
+YES<br>
+NO<br>
+Mall<br>
 
 
