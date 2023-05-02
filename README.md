@@ -1,5 +1,5 @@
 # TreeDictionary
-This data structure is a Tree where each node represents a character. Each path in the tree starting from the root and ending in one of the leaves represents a certain string. The leaves contain a special character ‘$’ which indicates the end of the string. The following figure is an example of this data structure.
+This data structure is a Tree where each node represents a character. Each path in the tree starting from the root and ending in one of the leaves represents a certain string. The leaves contain a special character ‘$’ which indicates the end of the string. The figure in main (with tree.PNG) is an example of this data structure.
 
 Your task is to build this data structure by implementing the following operations: Insert (char *s). This operation inserts the string s in the tree.
 
