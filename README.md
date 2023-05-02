@@ -29,7 +29,7 @@ result of command N
 Sample Input 0
 
 12
-insert Mall\n
+insert Mall<br>
 insert Me
 insert Mat
 insert Cat
