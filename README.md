@@ -10,22 +10,25 @@ Search (char *s). This operation prints Yes or No based on whether the string s 
 StartsWith(char *s). This operation prints all strings that start with string s. Strings are sorted then printed.<br>
 Longest(). This operation prints the longest string stored in the tree (assume there is only one such string).<br>
 <br>
+
 Input Format<br>
 N (the number of commands, N is an integer)<br>
 command 1<br>
 command 2<br>
 ...<br>
 command N<br><br>
+
 Constraints<br>
 N is between 1 to 500<br>
 <br>
+
 Output Format<br>
 result of command 1<br>
 result of command 2<br>
 ...<br>
 result of command N<br><br>
-Sample Input 0<br>
 
+Sample Input 0<br>
 12<br>
 insert Mall<br>
 insert Me<br>
